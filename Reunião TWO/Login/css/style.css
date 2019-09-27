@@ -1,0 +1,204 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body {
+        font-size: 16px;
+    }
+    
+    #topoLogin {
+        position: relative;
+        width: 100%;
+        height: 7.5%;
+        background: rgb(3, 0, 0);
+    }
+    
+    .logotw {
+        position: absolute;
+        width: 11vw;
+        height: 5vh;
+        margin: 0.5vh 0vw 0vh 1vw;
+        background: rgb(245, 245, 245);
+        padding: 0.4vh 0vw 0vw 0.5vh;
+        border-radius: 0.5em;
+    }
+    .logotw img{
+        width: 10.5vw;
+        height: 2em;
+    }    
+    #secao1Login {
+        width: 100%;
+        height:97%;
+        background-image: url("../img/bannerFundo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .boxlogin {
+        position: relative;
+        width: 28vw;
+        height: 54vh;
+        background: rgb(245, 245, 245, 0.6);
+        border-radius: 0.4em;
+        padding: 6vh 6vw 6vh 6vw;
+    }
+    
+    .boxlogin img {
+       position: absolute;
+       width: 10vw;
+       height: 18vh;
+       left: 10vw;
+       top:10vh;
+    }
+    
+    .labelboxLogin {
+        position: absolute;
+        top: 30vh;
+        left: 4vw;
+    }
+    
+    .labelboxLogin input {
+        width: 21vw;
+        height: 5vh;
+        margin: 0.5vh 0.5vw 0.5vh 0.1vw;
+        border-radius: 0.5em;
+        border: none;
+        font-size: 1.2em;
+        color: rgba(0, 0, 0, 0.795);
+        padding-left: 0.8vw;
+    }
+   
+    
+    .labelboxLogin a {
+        position: absolute;
+        display: inline-block;
+        background: rgb(0, 0, 0);
+        color: rgb(250, 235, 215);
+        padding: 1vh 1.5vw 1vh 1.5vw;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 0.2em;
+        left: 7vw;
+        top: 14vh;
+    }
+    
+    @media screen and (min-width: 100px) and (max-width:767px){
+    
+        #topoLogin {
+            display: none;
+        }
+        #secao1Login {
+            width: 100%;
+            height: 100%;
+            background-image: url("../img/bannerMobile.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .boxlogin {
+            position: relative;
+            width: 75vw;
+            height: 80vh;
+            background: rgb(245, 245, 245, 0.6);
+            border-radius: 0.4em;
+            padding: 6em;
+        }
+        .boxlogin img {
+            position: absolute;
+            width: 6em;
+            height: 7em;
+            left: 24vw;
+            top:10vh;
+         }
+         .labelboxLogin {
+            position: absolute;
+            top: 38vh;
+            left: 4vw;
+        }
+         .labelboxLogin input {
+            width: 67vw;
+            height: 6vh;
+            margin: 0.5vh 0.5vw 0.5vh 0.1vw;
+            padding: 0.5vh 5vw 0.6vh 5vw;
+            border-radius: 0.5em;
+            border: none;
+        }
+         .labelboxLogin a {
+            position: absolute;
+            display: inline-block;
+            background: rgb(0, 0, 0);
+            color: rgb(250, 235, 215);
+            padding: 1.2vh 9.5vw 1.5vh 9.5vw;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 0.3em;
+            left: 17vw;
+            top: 20vh;
+        }
+
+    
+    }
+    @media screen and (min-width: 767px) and (max-width:1023px){
+        #topoLogin {
+            display: none;
+        }
+        #secao1Login {
+            width: 100%;
+            height: 100%;
+            background-image: url("../img/bannerMobile.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .boxlogin {
+            position: relative;
+            width: 55vw;
+            height: 80vh;
+            background: rgb(245, 245, 245, 0.6);
+            border-radius: 0.4em;
+            padding: 6em;
+        }
+        .boxlogin img {
+            position: absolute;
+            width: 6em;
+            height: 7em;
+            left: 22vw;
+            top:10vh;
+         }
+         .labelboxLogin {
+            position: absolute;
+            top: 38vh;
+            left: 4vw;
+        }
+         .labelboxLogin input {
+            width: 47vw;
+            height: 6vh;
+            margin: 0.5vh 0.5vw 0.5vh 0.1vw;
+            padding: 0.5vh 5vw 0.6vh 5vw;
+            border-radius: 0.5em;
+            border: none;
+        }
+         .labelbox a {
+            position: absolute;
+            display: inline-block;
+            background: rgb(0, 0, 0);
+            color: rgb(250, 235, 215);
+            padding: 1.2vh 9.5vw 1.5vh 9.5vw;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 0.3em;
+            left: 10.7vw;
+            top: 20vh;
+        }
+
+    }

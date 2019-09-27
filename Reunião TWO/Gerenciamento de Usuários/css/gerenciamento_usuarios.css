@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    background-image: linear-gradient(to right, #a334a0, #cb3066);
+    width: 100vw;
+    height: 4.75em;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_topo {
+    width: 96.9vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone_le {
+    font-size: 1.875em;
+    color: #fff;
+}
+
+.icone_ld {
+    color: #fff;
+    font-size: 1.5625em;
+}
+
+.lista_icones_topo {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.lista_icones_topo li {
+    margin: 0 0.99em;
+}
+
+.nome_adm {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+}
+
+.menu_lateral {
+    width: 4.75em;
+    height: calc(100vh - 4.75em);
+    background: #444;
+}
+
+.menu_lateral nav {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa_branca {
+    background: #fff;
+    width: 2.5em;
+    height: 2.5em;
+    margin-top: 1.8em;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_lateral ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_lateral i {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 0.75em;
+    color: #444;
+}
+
+.conteudo {
+    width: 100vw;
+}
+
+.margin {
+    margin: 2em 3em 0em 3em;
+}
+
+.campo_busca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao {
+    border: none;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 0.9em 40em 0.9em 1em;
+}
+
+.campo_busca h1 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    color: #cb3066;
+}
+
+.sombra {
+    background: #f0f0f0;
+    margin-top: 2em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 0.8em 0.8em 0.8em;
+}
+
+.box {
+    width: 89vw;
+    height: 2em;
+    margin-top: 0.8em;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px rgb(161, 161, 161);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box input {
+    margin-left: 1em;
+}
+
+.box a {
+    padding-left: 1em;
+    padding-right: 40em;
+    font-size: 0.9em;
+    color: rgb(93, 92, 95);
+    text-decoration: none;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+}
+
+.status i {
+    margin-right: 1em;
+    font-size: 0.8em;
+    color: #b1b1b1;
+}
+
+.status p {
+    font-size: 0.9em;
+    color: rgb(92, 92, 92);
+}
+
+.status_usuario {
+    width: 1em;
+    height: 1em;
+    background: #58FF00;
+    border-radius: 10px;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.status_usuario_negativo {
+    width: 1em;
+    height: 1em;
+    background: rgb(255, 0, 0);
+    border-radius: 10px;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+}
+
+.botao_adicionar {
+    text-transform: uppercase;
+    border: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 0.9em 1.5em 0.9em 1.5em;
+    color: #fff;
+    background: linear-gradient(to right, #a334a0, #cb3066);
+}
