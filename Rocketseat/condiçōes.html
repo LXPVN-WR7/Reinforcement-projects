@@ -1,0 +1,30 @@
+<hyml>
+    <head>
+        <title>Curso JavaScript</title>
+    </head>
+    <body>
+        <script>
+            function returnSexo(sexo){
+                // if(sexo == "m"){
+                //     return "Masculino";
+                // }else if(sexo == "f"){
+                //     return "Feminino";
+                // }else{
+                //     return "outro";
+                // }
+                switch(sexo){
+                    case "m":
+                    return "masculino";
+
+                    case "f":
+                    return "feminino";
+
+                    default:
+                    return "outro";
+                }
+            }
+            var resp = returnSexo("m");
+            console.log(resp);
+        </script>
+    </body>
+</hyml>
