@@ -11,7 +11,9 @@ namespace POO_aula_3
 
 
             FuncionarioModel funcionario = new FuncionarioModel();
-
+            
+            List<FuncionarioModel> listaDeFuncionario = new List<FuncionarioModel>();
+            
             int opcao;
 
             do
@@ -26,7 +28,8 @@ namespace POO_aula_3
                 {
                     case 1:
                         // Caadastrar
-                        funcionario.CadastrarFuncionario();
+                        FuncionarioModel funcionarioCadastrado = funcionario.CadastrarFuncionario();
+                        listaDeFuncionario.Add(funcionarioCadastrado);
                         break;
 
                     case 2:
