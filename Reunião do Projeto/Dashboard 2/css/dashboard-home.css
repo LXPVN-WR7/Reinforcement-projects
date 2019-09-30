@@ -146,7 +146,8 @@
     margin-right: 16px;
 }
 
-.button-add-classificado {
+
+/* .button-add-classificado {
     border-radius: 8px;
     padding: 13px 20px;
     background: #005DFF;
@@ -156,7 +157,7 @@
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-}
+} */
 
 .bloco-classificado {
     width: 97%;
