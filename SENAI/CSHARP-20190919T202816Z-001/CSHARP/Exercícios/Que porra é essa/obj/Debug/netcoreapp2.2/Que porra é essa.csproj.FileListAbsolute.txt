@@ -1,0 +1,11 @@
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\bin\Debug\netcoreapp2.2\Que porra é essa.deps.json
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\bin\Debug\netcoreapp2.2\Que porra é essa.runtimeconfig.json
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\bin\Debug\netcoreapp2.2\Que porra é essa.runtimeconfig.dev.json
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\bin\Debug\netcoreapp2.2\Que porra é essa.dll
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\bin\Debug\netcoreapp2.2\Que porra é essa.pdb
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\obj\Debug\netcoreapp2.2\Que porra é essa.csprojAssemblyReference.cache
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\obj\Debug\netcoreapp2.2\Que porra é essa.csproj.CoreCompileInputs.cache
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\obj\Debug\netcoreapp2.2\Que porra é essa.AssemblyInfoInputs.cache
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\obj\Debug\netcoreapp2.2\Que porra é essa.AssemblyInfo.cs
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\obj\Debug\netcoreapp2.2\Que porra é essa.dll
+C:\Users\fic\Downloads\CSHARP-20190919T202816Z-001\CSHARP\Exercícios\Que porra é essa\obj\Debug\netcoreapp2.2\Que porra é essa.pdb

@@ -91,27 +91,27 @@
     color: #727272;
 }
 
-.block {
+.block-dashboard {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
-.container-base {
+.container-base-dashboard {
     width: 1252px;
     height: 100%;
     /* background: red; */
 }
 
-.campo-busca {
+.campo-busca-dashboard {
     width: 1252px;
     /* height: 87px; */
     height: 10%;
     /* background: yellow; */
 }
 
-.campo-classificados {
+.campo-classificados-dashboard {
     width: 1252px;
     height: 90%;
     background: #E5E5E5;
@@ -121,49 +121,68 @@
     align-items: center;
 }
 
-.campo-busca {
+.campo-busca-dashboard {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.campo-busca h1 {
+.campo-busca-dashboard h1 {
     text-transform: uppercase;
     color: #727272;
 }
 
-.format {
+.format-dashboard {
     height: 48px;
     display: flex;
     align-items: center;
 }
 
-.format input {
+.format-dashboard input {
     padding: 13px 300px 13px 10px;
     background: #dddddd;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-right: 16px;
 }
 
+.button-add-classificado-dashboard a {
+    display: flex;
+    align-items: center;
+}
 
-/* .button-add-classificado {
+.button-add-classificado-dashboard a {
+    text-decoration: none;
+}
+
+.button-add-classificado-dashboard i {
+    font-size: 50px;
+    color: #005DFF;
+}
+
+/* .button-add-classificado-dashboard {
     border-radius: 8px;
     padding: 13px 20px;
     background: #005DFF;
 }
 
-.button-add-classificado a {
+.button-add-classificado-dashboard  a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
 } */
 
-.bloco-classificado {
+.bloco-classificado-dashboard {
     width: 97%;
     height: 38px;
     background: #fff;
     margin-top: 17px;
     border-radius: 3px;
     box-shadow: 0px 0px 10px rgb(192, 192, 192);
+    display: flex;
+    align-items: center;
+}
+
+.bloco-classificado-dashboard img {
+    width: 45px;
 }

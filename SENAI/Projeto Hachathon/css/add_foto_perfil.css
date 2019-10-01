@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+    
+.geral-add-foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50em;
+}
+
+.corpo-add-foto-perfil {
+    width: 33em;
+    height: 20em;
+    background: blue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.div-um-add-foto-perfil {
+    background: red;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
