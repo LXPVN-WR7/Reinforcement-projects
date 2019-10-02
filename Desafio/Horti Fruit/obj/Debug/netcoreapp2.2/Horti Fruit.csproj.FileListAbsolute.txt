@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\bin\Debug\netcoreapp2.2\Horti Fruit.deps.json
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\bin\Debug\netcoreapp2.2\Horti Fruit.runtimeconfig.json
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\bin\Debug\netcoreapp2.2\Horti Fruit.runtimeconfig.dev.json
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\bin\Debug\netcoreapp2.2\Horti Fruit.dll
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\bin\Debug\netcoreapp2.2\Horti Fruit.pdb
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\obj\Debug\netcoreapp2.2\Horti Fruit.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\obj\Debug\netcoreapp2.2\Horti Fruit.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\obj\Debug\netcoreapp2.2\Horti Fruit.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\obj\Debug\netcoreapp2.2\Horti Fruit.AssemblyInfo.cs
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\obj\Debug\netcoreapp2.2\Horti Fruit.dll
+C:\Users\fic\Desktop\Git\Reinforcement-projects\Desafio\Horti Fruit\obj\Debug\netcoreapp2.2\Horti Fruit.pdb

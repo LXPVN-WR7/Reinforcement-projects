@@ -1,4 +1,5 @@
 ﻿using System;
+using Horti_Fruit.Controllers;
 
 namespace Horti_Fruit
 {
@@ -6,7 +7,10 @@ namespace Horti_Fruit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ProdutoController produtoController = new ProdutoController();
+
+            produtoController.CadastroProduto();
+
         }
     }
 }

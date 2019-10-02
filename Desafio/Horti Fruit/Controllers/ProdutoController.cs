@@ -13,7 +13,7 @@ namespace Horti_Fruit.Controllers
 
         List<ProdutoModel> listaDeProdutos = new List<ProdutoModel>();
 
-        public string CadastroProduto()
+        public void CadastroProduto()
         {
 
             Console.WriteLine("Informe o nome do produto:");
@@ -24,7 +24,7 @@ namespace Horti_Fruit.Controllers
 
             Console.WriteLine("Informe o preço do produto:");
             double preco = double.Parse(Console.ReadLine());
-
+    
             Console.WriteLine("Informe a quantidade total do produto:");
             int amount = int.Parse(Console.ReadLine());
 
@@ -38,7 +38,8 @@ namespace Horti_Fruit.Controllers
 
             listaDeProdutos.Add(produto); 
 
-            return Console.WriteLine("Produto cadastrado!");
+            Console.WriteLine("Produtoo Cadastrado");
+
 
         }
     }
