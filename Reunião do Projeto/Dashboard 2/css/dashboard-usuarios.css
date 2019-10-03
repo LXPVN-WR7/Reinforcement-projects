@@ -101,14 +101,11 @@
 .container-base-dashboard {
     width: 1252px;
     height: 100%;
-    /* background: red; */
 }
 
 .campo-busca-dashboard {
     width: 1252px;
-    /* height: 87px; */
     height: 10%;
-    /* background: yellow; */
 }
 
 .campo-classificados-dashboard {
@@ -143,7 +140,6 @@
     background: #dddddd;
     border: none;
     border-radius: 5px;
-    margin-right: 16px;
 }
 
 .button-add-classificado-dashboard a {
@@ -160,18 +156,6 @@
     color: #005DFF;
 }
 
-/* .button-add-classificado-dashboard {
-    border-radius: 8px;
-    padding: 13px 20px;
-    background: #005DFF;
-}
-
-.button-add-classificado-dashboard  a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-} */
-
 .bloco-classificado-dashboard {
     width: 97%;
     height: 50px;
@@ -182,10 +166,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.bloco-classificado-dashboard img {
-    width: 45px;
 }
 
 .bloco-classificado-dashboard a {
@@ -231,8 +211,10 @@
 
 .imgans {
     margin-left: 15px;
+    border-radius: 30px;
+    width: 33px;
 }
 
 .sobre {
-    margin-left: 20px;
+    margin-left: 30px;
 }

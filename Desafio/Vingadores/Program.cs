@@ -6,7 +6,7 @@ namespace Vingadores
     {
         static void Main(string[] args)
         {
-
+            Jogador();
         }
     }
 }
