@@ -181,6 +181,7 @@
     box-shadow: 0px 0px 10px rgb(192, 192, 192);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .bloco-classificado-dashboard img {
@@ -190,4 +191,48 @@
 .bloco-classificado-dashboard a {
     text-decoration: none;
     color: rgb(92, 92, 92);
+}
+
+.indice {
+    height: 20px;
+    width: 20px;
+    background: #58FF00;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+.divisionOne {
+    display: flex;
+    align-items: center;
+}
+
+.divisionTwo p {
+    margin-right: 100px;
+}
+
+.divisionTwo {
+    display: flex;
+    align-items: center;
+}
+
+.status {
+    margin-right: 16px;
+}
+
+.fa-ellipsis-v {
+    margin-right: 16px;
+    font-size: 18px;
+    color: rgb(190, 190, 190);
+}
+
+.marcador {
+    margin-left: 15px;
+}
+
+.imgans {
+    margin-left: 15px;
+}
+
+.sobre {
+    margin-left: 20px;
 }
