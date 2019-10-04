@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -43,7 +42,7 @@
     align-items: center;
 }
 
-.icons-dashboard i { 
+.icons-dashboard i {
     margin-right: 1.2em;
 }
 
@@ -55,7 +54,7 @@
 
 .user-name-dashboard {
     margin-right: 1.7em;
-} 
+}
 
 .menu-lateral-dashboard {
     margin-left: 0.75em;
@@ -76,8 +75,8 @@
 }
 
 .box-white-dashboard {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.3em;
+    height: 2.3em;
     background: #fff;
     margin-top: 1em;
     border-radius: 0.3125em;
@@ -94,10 +93,9 @@
 
 /* ========================================================= */
 
-
 .container-base-dashboard {
     width: 1252px;
-    height: 100%;
+    height: 900px;
     /* background: #005DFF; */
 }
 
@@ -116,7 +114,11 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgb(216, 216, 216);
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
+}
+
+.campo-busca-dashboard a {
+    text-decoration: none;
 }
 
 .campo-classificados-dashboard {
@@ -200,7 +202,7 @@
 .about2 p {
     text-transform: uppercase;
     font-size: 15px;
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 
 .campo-busca-dashboard h1 {
