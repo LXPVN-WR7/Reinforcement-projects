@@ -4,7 +4,7 @@
     margin: 0;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
+    overflow-x: hidden;
 }
 
 .menu-topo-dashboard {
@@ -91,137 +91,96 @@
     color: #727272;
 }
 
+
+/* ========================================================= */
+
+.container-base-dashboard {
+    width: 1252px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #005DFF; */
+}
+
 .block-dashboard {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-}
-
-.container-base-dashboard {
-    width: 1252px;
-    height: 100%;
-}
-
-.campo-busca-dashboard {
-    width: 1252px;
-    height: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* background: red; */
 }
 
 .campo-classificados-dashboard {
-    width: 1252px;
-    height: 86.4%;
+    width: 450px;
+    height: 35%;
     background: #E5E5E5;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
-.campo-busca-dashboard h1 {
-    text-transform: uppercase;
-    color: #727272;
-}
-
-.format-dashboard {
-    height: 48px;
+.campo-input {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 348px;
 }
 
-.format-dashboard input {
-    padding: 13px 300px 13px 10px;
-    background: #dddddd;
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-ctg {
     border: none;
     border-radius: 5px;
+    padding: 10px;
 }
 
-.button-add-classificado-dashboard a {
+.campo-input div {
+    margin-bottom: 25px;
+}
+
+.form label {
+    margin-bottom: 10px;
+}
+
+.bttn-add-foto {
+    width: 348px;
+    height: 40px;
+    background: #b3b3b3;
+    border-radius: 5px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.button-add-classificado-dashboard a {
+.bttn-add-foto p {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.now {
+    margin-top: 35px;
+}
+
+form a {
     text-decoration: none;
 }
 
-.button-add-classificado-dashboard i {
-    font-size: 50px;
-    color: #00205a;
-}
-
-.bloco-classificado-dashboard {
-    width: 97%;
-    height: 50px;
-    background: #fff;
-    margin-top: 17px;
-    border-radius: 3px;
-    box-shadow: 0px 0px 10px rgb(192, 192, 192);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.bloco-classificado-dashboard a {
-    text-decoration: none;
-    color: rgb(92, 92, 92);
-}
-
-.indice {
-    height: 20px;
-    width: 20px;
-    background: #58FF00;
-    border-radius: 10px;
-    margin-right: 16px;
-}
-
-.divisionOne a {
-    display: flex;
-    align-items: center;
-}
-
-.divisionOne {
-    display: flex;
-    align-items: center;
-}
-
-.divisionOne form {
-    display: flex;
-    align-items: center;
-}
-
-.divisionTwo p {
-    margin-right: 100px;
-}
-
-.divisionTwo {
-    display: flex;
-    align-items: center;
-}
-
-.status {
-    margin-right: 16px;
-}
-
-.fa-ellipsis-v {
-    margin-right: 16px;
-    font-size: 18px;
-    color: rgb(190, 190, 190);
-}
-
-.marcador {
-    margin-left: 15px;
-}
-
-.imgans {
-    margin-left: 15px;
-    border-radius: 30px;
-    width: 33px;
-}
-
-.sobre {
-    margin-left: 30px;
+.submit {
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    background: #00205a;
+    color: #fff;
+    margin-bottom: 10px;
 }

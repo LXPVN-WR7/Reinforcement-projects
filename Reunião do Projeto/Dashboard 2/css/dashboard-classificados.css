@@ -8,7 +8,7 @@
 }
 
 .menu-topo-dashboard {
-    background: #005DFF;
+    background: #00205a;
     height: 4em;
 }
 
@@ -63,7 +63,7 @@
 
 .container-dashboard {
     width: 100vw;
-    height: 92.6vh;
+    height: 93.2vh;
     display: flex;
 }
 
@@ -110,7 +110,7 @@
 
 .campo-classificados-dashboard {
     width: 1252px;
-    height: 90%;
+    height: 86.4%;
     background: #E5E5E5;
     border-radius: 10px;
     display: flex;
@@ -154,7 +154,7 @@
 
 .button-add-classificado-dashboard i {
     font-size: 50px;
-    color: #005DFF;
+    color: #00205a;
 }
 
 .bloco-classificado-dashboard {
