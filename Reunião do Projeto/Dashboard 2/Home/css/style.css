@@ -1,0 +1,304 @@
+/* PRÉ CONFIGURAÇÕES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a, p, label, input, td{
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    font-size: 16px;
+}
+
+/* CABEÇALHO HOME */
+
+.home_cabecalho{
+    display: none;
+}
+.home_banner_mobile{
+    display: none;
+}
+.home_settins-bars{
+    display: none;
+}
+.home_produto{
+    display: none;
+}
+
+
+/* CABEÇALHO MOBILE */
+
+@media screen and (max-width: 375px){
+
+    
+    .home_cabecalho{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 83px;
+        border-bottom: 2px solid #DFDFDF;
+
+    }
+
+    /* INICIO MENU ACESSIVEL*/
+
+    .home_cabecalho_acess{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100vw;
+        height: 31px;
+        background-color: #E6E6E6;
+    }
+    .home_cabecalho_acess_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 31px;
+        height: 31px;
+        background-color: #FFF;
+    }
+    .home_cabecalho_acess_box i{
+        font-size: 25px;
+    }
+
+    /* FIM MENU ACESSIVEL*/
+
+    /* INICIO MENU */
+
+    .home_cabecalho_menu{
+        width: 100vw;
+        height: 50px;
+        background-color: #FFF;
+        display: flex;
+    }
+    .home_cabecalho_logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 59px;
+        height: 50px;
+    }
+    .home_cabecalho_logo img{
+        width: 39px;
+        height: 38.51px;
+    }
+    .home_cabecalho_search{
+        width: 70.4vw;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home_cabecalho_input-search{
+        width: 264px;
+        height: 33px;
+        display: flex;
+        align-items: center;
+        border: 0.125em solid #E2E2E2;
+        border-radius: 0.5em;
+        background-color: #E2E2E2;
+    }
+    .home_cabecalho_input-search input{
+        font-size: 17.6px;
+        color: #9F9F9F;
+        border: none;
+        margin-left: 9px;
+        background-color: #E2E2E2;
+    }
+    .home_cabecalho_input-search i{
+        margin-left: 20px;
+        color: #9F9F9F;
+    }
+    .home_cabecalho_menu_button{
+        width: 52px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home_cabecalho_menu_button i{
+        color: #CCCCCC;
+        font-size: 38px;
+    }
+
+    /* FIM MENU */
+    
+    /* FIM CABEÇALHO MOBILE */
+
+    /* INICIO BANNER */
+
+    .home_banner_mobile{
+        display: flex;
+        width: 100vw;
+        height: 151px;
+        background-color:#00205a;
+    }
+
+    /* FIM BANNER */
+    
+    /* INICIO BARRA DE CONFIGURAÇÕES */
+
+    .home_settins-bars{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 46px;
+        background-color: #E4E4E4;
+    }
+    .home_settins-bars_ordenar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 118px;
+        height: 20px;
+        border-right: 1px solid #707070;
+    }
+    .home_settins-bars_ordenar i{
+        color: #707070;
+        font-size: 10px;
+    }
+    .home_settins-bars_ordenar i:nth-last-child(2n){
+        margin-left: 1px;
+    }
+    .home_settins-bars_ordenar p{
+        margin-left: 8px;
+        color:#707070;
+        font-size: 12px;
+    }
+    .home_settins-bars_galeria{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 118px;
+        height: 20px;
+        border-right: 1px solid #707070;
+    }
+    .home_settins-bars_galeria p{
+        color:#707070;
+        font-size: 12px;
+    }
+    .home_settins-bars_galeria p:nth-child(3n){
+        margin-left: 8px;
+    }
+    .home_settins-bars_filtrar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 118px;
+        height: 20px;
+        
+    }
+    .home_settins-bars_filtrar i{
+        color:#707070;
+        font-size: 10px;
+    }
+    .home_settins-bars_filtrar p{
+        color:#707070;
+        font-size: 12px;
+        margin-left: 8px;
+    }
+    
+    /* FIM BARRA DE CONFIGURAÇÕES */
+    
+    /* INICIO CONTEÚDO */
+
+    .home_produto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 107px;
+        border-bottom: #707070 1px solid;
+    }
+    .home_produto_imagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 134px;
+        height: 107px;
+    }
+    .home_produto_imagem img{
+        width: 99px;
+    }
+    .home_produto_descricao{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 241px;
+        height: 107px;
+    }
+    .home_produto_descricao_top{
+        display: flex;
+        width: 241px;
+        height: 68.4px;
+    }
+    .home_produto_descricao_bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00205a;
+        width: 112.48px;
+        height: 38px;
+        border-radius: 0px 3px 0px 3px;
+    }
+    .home_produto_descricao_bottom_border{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 106.48px;
+        height: 32px;
+        border: 1px solid #FFF;
+        border-radius: 0px 3px 0px 3px;
+    }
+    .home_produto_descricao_bottom_border p{
+        color: #FFF;
+        font-size: 14px;
+    }
+
+
+    .home_produto_descricao_top_text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 212px;
+        height: 68.4px;
+    }
+    .home_produto_descricao_top_text p{
+        color:#707070;
+        font-size: 14px;
+    }
+    .home_produto_descricao_top_interesse{
+        margin-top: 5px;
+        width: 28px;
+        height: 68.4px;
+    }
+    .home_produto_descricao_top_interesse_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid #D2CBCB 1px;
+        width: 24px;
+        height: 24px;
+        border-radius: 5px;
+    }
+    .home_produto_descricao_top_interesse_box i{
+        color:#707070;
+    }
+
+
+
+    /* FIM CONTEÚDO */
+    
+    
+    
+    
+    
+
+}
+
