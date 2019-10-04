@@ -1,0 +1,592 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#cab-1-login{
+    width: 100%;
+}
+
+#acessibilidade-3-login{
+    /* width: 100vw; */
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background:  #00205a;
+}
+
+.voltar-4-login{
+    width: 65%;
+}
+
+.voltar-4-login img{
+    width: 4em;
+    height: 3.5em;
+    background: #00205a;
+}
+
+#acessibilidade-lista-4-login{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3em -0.3em;
+}
+
+#acessibilidade-lista-4-login ul li{
+    display: inline;
+    padding: 0.5em 0.9em;
+    font-family: 'Segoe Ui';
+    list-style: none;
+}
+
+#acessibilidade-lista-4-login ul li:nth-child(2){
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#acessibilidade-lista-4-login ul li:nth-child(1){
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+
+#acessibilidade-lista-4-login ul li:nth-child(3){
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#acessibilidade-lista-4-login a{
+    text-decoration: none;
+    color:  #f2f2f2;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* fim cabeçalho */
+
+#corpo-1-login{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;    
+}
+
+#conteudo-2-login{
+    width: 100%;
+}
+
+#relativo-login{
+    width: 100vw;
+    height: 90vh;
+    background:  #00205a;
+    position: absolute;
+    -webkit-clip-path: polygon(100% 21%, 100% 100%, 84% 100%, 91% 42%);
+    clip-path: polygon(100% 21%, 100% 100%, 84% 100%, 91% 42%);
+}
+
+#relativo-c-login{
+    width: 100%;
+    height: 90vh;
+    clip-path: circle(1.3% at 8% 75%);
+    background: #00205a;
+    position: absolute;
+}
+
+#relativo-c2-login{
+    width: 100%;
+    height: 90vh;
+    background: #00205a;
+    clip-path: circle(0.9% at 15% 25%);
+    position: absolute;
+}
+
+#titulo-3-login{
+    width: 100%;
+    height: 10vh;
+    font-size: 2.5em;
+    text-align: center;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    padding: 0.9em 0em;
+}
+
+#titulo-3-login h1:nth-child(2){
+    color:  #00205a;
+    padding: 0.1em 0.1em;
+    text-transform: uppercase;
+}
+
+#titulo-3-login h1:nth-child(1){
+    color: white;
+    background:  #00205a;
+    border-radius: 0.1em;
+    padding: -0.3em 0em;
+    text-transform: uppercase;  
+}
+
+#conteudo-3-login{
+    display: flex;
+}
+
+#imagem-principal-4-login{
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    background: white;
+    align-items: center;
+}
+
+#imagem-principal-4-login img{
+width: 40em;
+height: 30em;
+}
+
+#inserir-dados-4-login{
+    width: 50vw;
+    height: 70vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;  
+}
+
+#inserir-dados-4-login form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#inserir-dados-4-login input{
+margin-top: 1em;
+width: 20em;
+border-radius: 0.5em;
+height: 3.5em;
+border: none;
+box-shadow: 0em 0em 0.3em 0.099em;
+color: #B2B2B2;
+}
+
+#inserir-dados-4-login img{
+    width: 20vw;
+    margin-bottom: 1em;
+}
+
+input{
+    padding: 0em 1em;
+}
+
+#entrar-5-login{
+    margin-top: 1.5em;
+    color: white;
+    background: #005DFF;
+    width: 10em;
+    height: 3.5em;
+    border-radius: 0.3em;
+    border: none;
+    cursor: pointer;
+}
+
+
+.opcoes-fim2-3-login{
+    width: 100%;
+    height: 7vh;
+    /* margin-top: 1.5em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes-fim2-3-login a{
+    list-style: none;
+    text-decoration: none;
+    color: #005DFF;
+}
+
+.opcoes-fim2-3-login li{
+    /* padding: 0.5em 0.5em; */
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.opcoes-fim2-3-login ul li{
+    display: inline;
+    margin: 0em 0.5em;
+}
+
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* Responsividade LOGIN E CADASTRO */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+
+
+/* AJUSTE DE IMAGEM */
+@media screen and(min-width:1024px), (max-width: 1277px){
+#imagem-principal-4-login{
+display: flex;
+justify-content: flex-end;
+}
+
+#imagem-principal-4-login img{
+width: 30em;
+height: 25em;
+}
+
+}
+
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+
+
+/* MOBILE */
+@media screen and(min-width:356px), (max-width: 899px){
+
+    /* Começo 400px até 967px */
+
+#acessibilidade-lista-4-login{
+    position: fixed;
+    margin-bottom: 1em;
+}
+
+#corpo-1-login{
+    height: 70vh;
+}
+
+#imagem-principal-4-login{
+    display: none;
+}
+
+#conteudo-3-login{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#inserir-dados-4-login{
+    height: 60vh;
+}
+
+.opcoes-fim2-3-login{
+    margin-top: 1em;
+}
+
+.opcoes-fim2-3-login ul li {
+display: table-row;
+}
+
+.opcoes-fim2-3-login li {
+
+    margin: 1em 0em;
+}
+
+#txt-5-redefinir-senha{
+ display: none;
+}
+
+#txt-5-redefinir-senha p{
+ 
+}
+
+}
+
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+                /* REDEFINIR SENHA TELA */
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////// */
+
+#titulo-3-redefinir-senha{
+    width: 100%;
+    height: 10vh;
+    font-size: 2.5em;
+    text-align: center;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    padding: 0.0em 0em;
+}
+
+#titulo-3-redefinir-senha h1:nth-child(2){
+    color: #00205a;
+    padding: 0.1em 0.1em;
+    text-transform: uppercase;
+}
+
+#titulo-3-redefinir-senha h1:nth-child(1){
+    color: white;
+    background: #00205a;
+    border-radius: 0.1em;
+    padding: -0.3em 0em;
+    text-transform: uppercase;  
+}
+
+#inserir-dados-4-redefinir-senha{
+    width: 50vw;
+    height: 70vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;  
+}
+
+#inserir-dados-4-redefinir-senha form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#inserir-dados-4-redefinir-senha input{
+margin-top: 1em;
+width: 30em;
+border-radius: 0.5em;
+font-size: 1em;
+height: 4em;
+border: none;
+box-shadow: 0em 0em 0.3em 0.099em;
+color: #B2B2B2;
+}
+
+#txt-5-redefinir-senha{
+    width: 60%;
+    height: 8vh;
+}
+
+#txt-5-redefinir-senha p{
+    font-size: 1em;
+    text-align: center;
+    padding: 0.4em;
+}
+
+#entrar-5-redefinir-senha{
+    margin-top: 1.5em;
+    color: white;
+    background: #005DFF;
+    width: 10em;
+    height: 3.5em;
+    border-radius: 0.3em;
+    border: none;
+    cursor: pointer;   
+}
+
+
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* responsividade TABLET */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+
+
+
+@media screen and(min-width:800px), (max-width: 1023px){
+
+
+    
+#acessibilidade-lista-4-login{
+    position: fixed;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3em -0.3em;
+}
+
+#acessibilidade-lista-4-login ul li{
+    display: inline;
+    padding: 0.5em 0.9em;
+    font-family: 'Segoe Ui';
+    list-style: none;
+}
+
+#acessibilidade-lista-4-login ul li:nth-child(2){
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#acessibilidade-lista-4-login ul li:nth-child(1){
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+#acessibilidade-lista-4-login ul li:nth-child(3){
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#acessibilidade-lista-4-login a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.voltar-4-login{
+    width: 90%;
+}
+
+#corpo-1-login{
+    height: 90vh;
+}
+
+#imagem-principal-4-login{
+    display: none;
+}
+
+#titulo-3-redefinir-senha{
+    width: 100%;
+    height: 10vh;
+    font-family: 'Open Sans';
+    font-size: 1.5em;
+    text-align: center;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    padding: 0.0em 0em;
+}
+
+#titulo-3-redefinir-senha h1:nth-child(2){
+    color: #00205a;
+    padding: 0.1em 0.1em;
+    text-transform: uppercase;
+}
+
+#titulo-3-redefinir-senha h1:nth-child(1){
+    color: white;
+    background: #00205a;
+    border-radius: 0.1em;
+    padding: -0.3em 0em;
+    text-transform: uppercase;  
+}
+
+#conteudo-3-login{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#inserir-dados-4-login{
+    height: 60vh;
+}
+
+.opcoes-fim-3-login{
+    height: 6vw;
+}
+
+#inserir-dados-4-redefinir-senha form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#inserir-dados-4-redefinir-senha input{
+margin-top: 1em;
+width: 75vw;
+border-radius: 0.5em;
+font-size: 1em;
+height: 4em;
+border: none;
+box-shadow: 0em 0em 0.3em 0.099em;
+color: #B2B2B2;
+}
+
+#txt-5-redefinir-senha{
+    width: 100%;
+    height: 8vh;
+    margin: 1.1em 0em;
+}
+
+#txt-5-redefinir-senha p{
+    text-align: left;
+    font-size: 1em;
+}
+
+#corpo-1-login{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#conteudo-2-login{
+    width: 100%;
+}}
+
+
+
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/*  Fim das telas redefinir senha, 
+    Login e Cadastro de usuário */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
+/* /////////////////////////////////// */
