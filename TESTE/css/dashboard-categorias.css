@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-topo-dashboard {
+    background: #00205a;
+    height: 4em;
+}
+
+.navegacao-dashboard {
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navegacao-dashboard a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-voltar-dashboard i {
+    font-size: 2.5em;
+}
+
+.menu-usuario-dashboard {
+    display: flex;
+    align-items: center;
+}
+
+.menu-usuario-dashboard i {
+    font-size: 1.375em;
+}
+
+.icons-dashboard {
+    display: flex;
+    align-items: center;
+}
+
+.icons-dashboard i {
+    margin-right: 1.2em;
+}
+
+.user-img-dashboard img {
+    width: 2.5em;
+    border-radius: 6.25em;
+    margin-right: 0.8em;
+}
+
+.user-name-dashboard {
+    margin-right: 1.7em;
+}
+
+.menu-lateral-dashboard {
+    margin-left: 0.75em;
+}
+
+.container-dashboard {
+    width: 100vw;
+    height: 93.2vh;
+    display: flex;
+}
+
+.menu-lateral-baixo-dashboard {
+    width: 4em;
+    background: #727272;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-white-dashboard {
+    width: 2.3em;
+    height: 2.3em;
+    background: #fff;
+    margin-top: 1em;
+    border-radius: 0.3125em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-white-dashboard i {
+    font-size: 1.1875em;
+    color: #727272;
+}
+
+
+/* ========================================================= */
+
+.container-base-dashboard {
+    width: 1252px;
+    height: 800px;
+    /* background: #005DFF; */
+}
+
+.block-dashboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* background: red; */
+}
+
+.campo-busca-dashboard {
+    width: 1252px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin-bottom: 15px;
+}
+
+.campo-busca-dashboard a {
+    text-decoration: none;
+}
+
+.campo-classificados-dashboard {
+    width: 336px;
+    height: 21%;
+    background: #E5E5E5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    margin-left: 12px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #bebebe;
+    display: flex;
+    justify-content: space-between;
+}
+
+.indice {
+    height: 20px;
+    width: 20px;
+    background: #58FF00;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.marca {
+    width: 115px;
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px #bebebe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comport-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about {
+    height: 58px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about p {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.logo-alto {
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+.logo-baixo {
+    width: 55px;
+}
+
+.about2 {
+    height: 58px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about2 p {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.campo-busca-dashboard h1 {
+    text-transform: uppercase;
+    color: #727272;
+}
+
+.bttn-add {
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: #00205a;
+    color: #fff;
+    text-transform: uppercase;
+}
