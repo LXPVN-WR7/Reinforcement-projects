@@ -6,12 +6,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.menu-topo-dashboard {
+.menu-topo-dashboard-categorias {
     background: #00205a;
     height: 4em;
 }
 
-.navegacao-dashboard {
+.navegacao-dashboard-categorias {
     height: 4em;
     display: flex;
     justify-content: space-between;
@@ -19,54 +19,54 @@
     list-style-type: none;
 }
 
-.navegacao-dashboard a {
+.navegacao-dashboard-categorias a {
     color: white;
     text-decoration: none;
 }
 
-.btn-voltar-dashboard i {
+.btn-voltar-dashboard-categorias i {
     font-size: 2.5em;
 }
 
-.menu-usuario-dashboard {
+.menu-usuario-dashboard-categorias {
     display: flex;
     align-items: center;
 }
 
-.menu-usuario-dashboard i {
+.menu-usuario-dashboard-categorias i {
     font-size: 1.375em;
 }
 
-.icons-dashboard {
+.icons-dashboard-categorias {
     display: flex;
     align-items: center;
 }
 
-.icons-dashboard i {
+.icons-dashboard-categorias i {
     margin-right: 1.2em;
 }
 
-.user-img-dashboard img {
+.user-img-dashboard-categorias img {
     width: 2.5em;
     border-radius: 6.25em;
     margin-right: 0.8em;
 }
 
-.user-name-dashboard {
+.user-name-dashboard-categorias {
     margin-right: 1.7em;
 }
 
-.menu-lateral-dashboard {
+.menu-lateral-dashboard-categorias {
     margin-left: 0.75em;
 }
 
-.container-dashboard {
+.container-dashboard-categorias {
     width: 100vw;
     height: 93.2vh;
     display: flex;
 }
 
-.menu-lateral-baixo-dashboard {
+.menu-lateral-baixo-dashboard-categorias {
     width: 4em;
     background: #727272;
     display: flex;
@@ -74,7 +74,7 @@
     align-items: center;
 }
 
-.box-white-dashboard {
+.box-white-dashboard-categorias {
     width: 2.3em;
     height: 2.3em;
     background: #fff;
@@ -85,7 +85,7 @@
     justify-content: center;
 }
 
-.box-white-dashboard i {
+.box-white-dashboard-categorias i {
     font-size: 1.1875em;
     color: #727272;
 }
@@ -93,13 +93,13 @@
 
 /* ========================================================= */
 
-.container-base-dashboard {
+.container-base-dashboard-categorias {
     width: 1252px;
     height: 800px;
     /* background: #005DFF; */
 }
 
-.block-dashboard {
+.block-dashboard-categorias {
     width: 100%;
     height: 100%;
     display: flex;
@@ -107,7 +107,7 @@
     /* background: red; */
 }
 
-.campo-busca-dashboard {
+.campo-busca-dashboard-categorias {
     width: 1252px;
     height: 10%;
     display: flex;
@@ -117,11 +117,11 @@
     margin-bottom: 15px;
 }
 
-.campo-busca-dashboard a {
+.campo-busca-dashboard-categorias a {
     text-decoration: none;
 }
 
-.campo-classificados-dashboard {
+.campo-classificados-dashboard-categorias {
     width: 336px;
     height: 21%;
     background: #E5E5E5;
@@ -130,7 +130,7 @@
     align-items: center;
 }
 
-.box {
+.box-dashboard-categorias {
     background: #fff;
     width: 150px;
     height: 150px;
@@ -141,7 +141,7 @@
     justify-content: space-between;
 }
 
-.indice {
+.indice-dashboard-categorias {
     height: 20px;
     width: 20px;
     background: #58FF00;
@@ -149,11 +149,11 @@
     margin: 5px;
 }
 
-.marca {
+.marca-dashboard-categorias {
     width: 115px;
 }
 
-.logo {
+.logo-dashboard-categorias {
     width: 75px;
     height: 75px;
     border-radius: 50px;
@@ -164,12 +164,12 @@
     align-items: center;
 }
 
-.comport-logo {
+.comport-logo-dashboard-categorias {
     display: flex;
     justify-content: flex-end;
 }
 
-.about {
+.about-dashboard-categorias {
     height: 58px;
     width: 150px;
     display: flex;
@@ -177,21 +177,21 @@
     align-items: center;
 }
 
-.about p {
+.about-dashboard-categorias p {
     text-transform: uppercase;
     font-size: 15px;
 }
 
-.logo-alto {
+.logo-alto-dashboard-categorias {
     width: 30px;
     margin-bottom: 5px;
 }
 
-.logo-baixo {
+.logo-baixo-dashboard-categorias {
     width: 55px;
 }
 
-.about2 {
+.about2-dashboard-categorias {
     height: 58px;
     width: 150px;
     display: flex;
@@ -199,18 +199,18 @@
     align-items: center;
 }
 
-.about2 p {
+.about2-dashboard-categorias p {
     text-transform: uppercase;
     font-size: 15px;
     margin-left: 5px;
 }
 
-.campo-busca-dashboard h1 {
+.campo-busca-dashboard-categorias h1 {
     text-transform: uppercase;
     color: #727272;
 }
 
-.bttn-add {
+.bttn-add-dashboard-categorias {
     padding: 10px 15px;
     border-radius: 6px;
     background: #00205a;

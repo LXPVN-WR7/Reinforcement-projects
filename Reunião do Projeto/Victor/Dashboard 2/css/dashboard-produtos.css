@@ -7,12 +7,12 @@
     letter-spacing: 1px;
 }
 
-.menu-topo-dashboard-usuarios {
+.menu-topo-dashboard-classificados {
     background: #00205a;
     height: 4em;
 }
 
-.navegacao-dashboard-usuarios {
+.navegacao-dashboard-classificados {
     height: 4em;
     display: flex;
     justify-content: space-between;
@@ -20,54 +20,54 @@
     list-style-type: none;
 }
 
-.navegacao-dashboard-usuarios a {
+.navegacao-dashboard-classificados a {
     color: white;
     text-decoration: none;
 }
 
-.btn-voltar-dashboard-usuarios i {
+.btn-voltar-dashboard-classificados i {
     font-size: 2.5em;
 }
 
-.menu-usuario-dashboard-usuarios {
+.menu-usuario-dashboard-classificados {
     display: flex;
     align-items: center;
 }
 
-.menu-usuario-dashboard-usuarios i {
+.menu-usuario-dashboard-classificados i {
     font-size: 1.375em;
 }
 
-.icons-dashboard-usuarios {
+.icons-dashboard-classificados {
     display: flex;
     align-items: center;
 }
 
-.icons-dashboard-usuarios i {
+.icons-dashboard-classificados i {
     margin-right: 1.2em;
 }
 
-.user-img-dashboard-usuarios img {
+.user-img-dashboard-classificados img {
     width: 2.5em;
     border-radius: 6.25em;
     margin-right: 0.8em;
 }
 
-.user-name-dashboard-usuarios {
+.user-name-dashboard-classificados {
     margin-right: 1.7em;
 }
 
-.menu-lateral-dashboard-usuarios {
+.menu-lateral-dashboard-classificados {
     margin-left: 0.75em;
 }
 
-.container-dashboard-usuarios {
+.container-dashboard-classificados {
     width: 100vw;
     height: 93.2vh;
     display: flex;
 }
 
-.menu-lateral-baixo-dashboard-usuarios {
+.menu-lateral-baixo-dashboard-classificados {
     width: 4em;
     background: #727272;
     display: flex;
@@ -75,7 +75,7 @@
     align-items: center;
 }
 
-.box-white-dashboard-usuarios {
+.box-white-dashboard-classificados {
     width: 2.3em;
     height: 2.3em;
     background: #fff;
@@ -86,32 +86,29 @@
     justify-content: center;
 }
 
-.box-white-dashboard-usuarios i {
+.box-white-dashboard-classificados i {
     font-size: 1.1875em;
     color: #727272;
 }
 
-.block-dashboard-usuarios {
+.block-dashboard-classificados {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
-.container-base-dashboard-usuarios {
+.container-base-dashboard-classificados {
     width: 1252px;
     height: 100%;
 }
 
-.campo-busca-dashboard-usuarios {
+.campo-busca-dashboard-classificados {
     width: 1252px;
     height: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.campo-classificados-dashboard-usuarios {
+.campo-classificados-dashboard-classificados {
     width: 1252px;
     height: 86.4%;
     background: #E5E5E5;
@@ -121,39 +118,46 @@
     align-items: center;
 }
 
-.campo-busca-dashboard-usuarios h1 {
+.campo-busca-dashboard-classificados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.campo-busca-dashboard-classificados h1 {
     text-transform: uppercase;
     color: #727272;
 }
 
-.format-dashboard-usuarios {
+.format-dashboard-classificados {
     height: 48px;
     display: flex;
     align-items: center;
 }
 
-.format-dashboard-usuarios input {
+.format-dashboard-classificados input {
     padding: 13px 300px 13px 10px;
     background: #dddddd;
     border: none;
     border-radius: 5px;
+    margin-right: 16px;
 }
 
-.button-add-classificado-dashboard-usuarios a {
+.button-add-classificado-dashboard-classificados a {
     display: flex;
     align-items: center;
 }
 
-.button-add-classificado-dashboard-usuarios a {
+.button-add-classificado-dashboard-classificados a {
     text-decoration: none;
 }
 
-.button-add-classificado-dashboard-usuarios i {
+.button-add-classificado-dashboard-classificados i {
     font-size: 50px;
     color: #00205a;
 }
 
-.bloco-classificado-dashboard-usuarios {
+.bloco-classificado-dashboard-classificados {
     width: 97%;
     height: 50px;
     background: #fff;
@@ -165,44 +169,38 @@
     justify-content: space-between;
 }
 
-.bloco-classificado-dashboard-usuarios a {
+.bloco-classificado-dashboard-classificados img {
+    width: 45px;
+}
+
+.bloco-classificado-dashboard-classificados a {
     text-decoration: none;
     color: rgb(92, 92, 92);
 }
 
-.indice-dashboard-usuarios {
+.indice-dashboard-classificados {
     height: 20px;
     width: 20px;
-    background: #58FF00;
+    background: rgb(255, 0, 0);
     border-radius: 10px;
     margin-right: 16px;
 }
 
-.divisionOne-dashboard-usuarios a {
+.divisionOne-dashboard-classificados {
     display: flex;
     align-items: center;
 }
 
-.divisionOne-dashboard-usuarios {
-    display: flex;
-    align-items: center;
-}
-
-.divisionOne-dashboard-usuarios form {
-    display: flex;
-    align-items: center;
-}
-
-.divisionTwo-dashboard-usuarios p {
+.divisionTwo-dashboard-classificados p {
     margin-right: 100px;
 }
 
-.divisionTwo-dashboard-usuarios {
+.divisionTwo-dashboard-classificados {
     display: flex;
     align-items: center;
 }
 
-.status-dashboard-usuarios {
+.status-dashboard-classificados {
     margin-right: 16px;
 }
 
@@ -212,16 +210,14 @@
     color: rgb(190, 190, 190);
 }
 
-.marcador-dashboard-usuarios {
+.marcador-dashboard-classificados {
     margin-left: 15px;
 }
 
-.imgans-dashboard-usuarios {
+.imgans-dashboard-classificados {
     margin-left: 15px;
-    border-radius: 30px;
-    width: 33px;
 }
 
-.sobre-dashboard-usuarios {
+.sobre-dashboard-classificados {
     margin-left: 20px;
 }

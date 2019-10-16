@@ -7,12 +7,12 @@
     letter-spacing: 1px;
 }
 
-.menu-topo-dashboard {
+.menu-topo-dashboard-classificados {
     background: #00205a;
     height: 4em;
 }
 
-.navegacao-dashboard {
+.navegacao-dashboard-classificados {
     height: 4em;
     display: flex;
     justify-content: space-between;
@@ -20,54 +20,54 @@
     list-style-type: none;
 }
 
-.navegacao-dashboard a {
+.navegacao-dashboard-classificados a {
     color: white;
     text-decoration: none;
 }
 
-.btn-voltar-dashboard i {
+.btn-voltar-dashboard-classificados i {
     font-size: 2.5em;
 }
 
-.menu-usuario-dashboard {
+.menu-usuario-dashboard-classificados {
     display: flex;
     align-items: center;
 }
 
-.menu-usuario-dashboard i {
+.menu-usuario-dashboard-classificados i {
     font-size: 1.375em;
 }
 
-.icons-dashboard {
+.icons-dashboard-classificados {
     display: flex;
     align-items: center;
 }
 
-.icons-dashboard i {
+.icons-dashboard-classificados i {
     margin-right: 1.2em;
 }
 
-.user-img-dashboard img {
+.user-img-dashboard-classificados img {
     width: 2.5em;
     border-radius: 6.25em;
     margin-right: 0.8em;
 }
 
-.user-name-dashboard {
+.user-name-dashboard-classificados {
     margin-right: 1.7em;
 }
 
-.menu-lateral-dashboard {
+.menu-lateral-dashboard-classificados {
     margin-left: 0.75em;
 }
 
-.container-dashboard {
+.container-dashboard-classificados {
     width: 100vw;
     height: 93.2vh;
     display: flex;
 }
 
-.menu-lateral-baixo-dashboard {
+.menu-lateral-baixo-dashboard-classificados {
     width: 4em;
     background: #727272;
     display: flex;
@@ -75,7 +75,7 @@
     align-items: center;
 }
 
-.box-white-dashboard {
+.box-white-dashboard-classificados {
     width: 2.3em;
     height: 2.3em;
     background: #fff;
@@ -86,29 +86,29 @@
     justify-content: center;
 }
 
-.box-white-dashboard i {
+.box-white-dashboard-classificados i {
     font-size: 1.1875em;
     color: #727272;
 }
 
-.block-dashboard {
+.block-dashboard-classificados {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
-.container-base-dashboard {
+.container-base-dashboard-classificados {
     width: 1252px;
     height: 100%;
 }
 
-.campo-busca-dashboard {
+.campo-busca-dashboard-classificados {
     width: 1252px;
     height: 10%;
 }
 
-.campo-classificados-dashboard {
+.campo-classificados-dashboard-classificados {
     width: 1252px;
     height: 86.4%;
     background: #E5E5E5;
@@ -118,24 +118,24 @@
     align-items: center;
 }
 
-.campo-busca-dashboard {
+.campo-busca-dashboard-classificados {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.campo-busca-dashboard h1 {
+.campo-busca-dashboard-classificados h1 {
     text-transform: uppercase;
     color: #727272;
 }
 
-.format-dashboard {
+.format-dashboard-classificados {
     height: 48px;
     display: flex;
     align-items: center;
 }
 
-.format-dashboard input {
+.format-dashboard-classificados input {
     padding: 13px 300px 13px 10px;
     background: #dddddd;
     border: none;
@@ -143,21 +143,21 @@
     margin-right: 16px;
 }
 
-.button-add-classificado-dashboard a {
+.button-add-classificado-dashboard-classificados a {
     display: flex;
     align-items: center;
 }
 
-.button-add-classificado-dashboard a {
+.button-add-classificado-dashboard-classificados a {
     text-decoration: none;
 }
 
-.button-add-classificado-dashboard i {
+.button-add-classificado-dashboard-classificados i {
     font-size: 50px;
     color: #00205a;
 }
 
-.bloco-classificado-dashboard {
+.bloco-classificado-dashboard-classificados {
     width: 97%;
     height: 50px;
     background: #fff;
@@ -169,16 +169,16 @@
     justify-content: space-between;
 }
 
-.bloco-classificado-dashboard img {
+.bloco-classificado-dashboard-classificados img {
     width: 45px;
 }
 
-.bloco-classificado-dashboard a {
+.bloco-classificado-dashboard-classificados a {
     text-decoration: none;
     color: rgb(92, 92, 92);
 }
 
-.indice {
+.indice-dashboard-classificados {
     height: 20px;
     width: 20px;
     background: #58FF00;
@@ -186,21 +186,21 @@
     margin-right: 16px;
 }
 
-.divisionOne {
+.divisionOne-dashboard-classificados {
     display: flex;
     align-items: center;
 }
 
-.divisionTwo p {
+.divisionTwo-dashboard-classificados p {
     margin-right: 100px;
 }
 
-.divisionTwo {
+.divisionTwo-dashboard-classificados {
     display: flex;
     align-items: center;
 }
 
-.status {
+.status-dashboard-classificados {
     margin-right: 16px;
 }
 
@@ -210,14 +210,14 @@
     color: rgb(190, 190, 190);
 }
 
-.marcador {
+.marcador-dashboard-classificados {
     margin-left: 15px;
 }
 
-.imgans {
+.imgans-dashboard-classificados {
     margin-left: 15px;
 }
 
-.sobre {
+.sobre-dashboard-classificados {
     margin-left: 20px;
 }

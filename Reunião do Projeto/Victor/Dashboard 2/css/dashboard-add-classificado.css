@@ -6,12 +6,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.menu-topo-dashboard {
+.menu-topo-dashboard-add-classificado {
     background: #00205a;
     height: 4em;
 }
 
-.navegacao-dashboard {
+.navegacao-dashboard-add-classificado {
     height: 4em;
     display: flex;
     justify-content: space-between;
@@ -19,54 +19,54 @@
     list-style-type: none;
 }
 
-.navegacao-dashboard a {
+.navegacao-dashboard-add-classificado a {
     color: white;
     text-decoration: none;
 }
 
-.btn-voltar-dashboard i {
+.btn-voltar-dashboard-add-classificado i {
     font-size: 2.5em;
 }
 
-.menu-usuario-dashboard {
+.menu-usuario-dashboard-add-classificado {
     display: flex;
     align-items: center;
 }
 
-.menu-usuario-dashboard i {
+.menu-usuario-dashboard-add-classificado i {
     font-size: 1.375em;
 }
 
-.icons-dashboard {
+.icons-dashboard-add-classificado {
     display: flex;
     align-items: center;
 }
 
-.icons-dashboard i { 
+.icons-dashboard-add-classificado i {
     margin-right: 1.2em;
 }
 
-.user-img-dashboard img {
+.user-img-dashboard-add-classificado img {
     width: 2.5em;
     border-radius: 6.25em;
     margin-right: 0.8em;
 }
 
-.user-name-dashboard {
+.user-name-dashboard-add-classificado {
     margin-right: 1.7em;
-} 
+}
 
-.menu-lateral-dashboard {
+.menu-lateral-dashboard-add-classificado {
     margin-left: 0.75em;
 }
 
-.container-dashboard {
+.container-dashboard-add-classificado {
     width: 100vw;
     height: 92.6vh;
     display: flex;
 }
 
-.menu-lateral-baixo-dashboard {
+.menu-lateral-baixo-dashboard-add-classificado {
     width: 4em;
     background: #727272;
     display: flex;
@@ -74,7 +74,7 @@
     align-items: center;
 }
 
-.box-white-dashboard {
+.box-white-dashboard-add-classificado {
     width: 2.3em;
     height: 2.3em;
     background: #fff;
@@ -85,7 +85,7 @@
     justify-content: center;
 }
 
-.box-white-dashboard i {
+.box-white-dashboard-add-classificado i {
     font-size: 1.1875em;
     color: #727272;
 }
@@ -93,14 +93,14 @@
 
 /* ======================================================================== */
 
-.block-dashboard {
+.block-dashboard-add-classificado {
     display: flex;
     justify-content: center;
     /* background: red; */
     width: 100vw;
 }
 
-.container-base-dashboard {
+.container-base-dashboard-add-classificado {
     width: 1252px;
     height: 100%;
     /* background: yellow; */
@@ -109,7 +109,7 @@
     align-items: center;
 }
 
-.formater {
+.formater-dashboard-add-classificado {
     width: 830px;
     /* height: 170px; */
     background: #E5E5E5;
@@ -120,25 +120,24 @@
     align-items: center;
 }
 
-#select {
+#select-dashboard-add-classificado {
     padding: 12px;
     border-radius: 5px;
     border: none;
 }
 
-.enviar {
-    padding: 10px 20px;  
+.enviar-dashboard-add-classificado {
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     background: #00205a;
     color: #fff;
 }
 
-.sobre {
+.sobre-dashboard-add-classificado {
     margin: 25px 0px 12px 0px;
-
 }
 
-.bttn-enviar {
+.bttn-enviar-dashboard-add-classificado {
     margin: 30px 0px;
 }
