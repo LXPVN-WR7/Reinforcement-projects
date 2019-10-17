@@ -1,0 +1,14 @@
+C:\Users\fic\Desktop\API\AULA1\bin\Debug\netcoreapp2.2\AULA1.deps.json
+C:\Users\fic\Desktop\API\AULA1\bin\Debug\netcoreapp2.2\AULA1.runtimeconfig.json
+C:\Users\fic\Desktop\API\AULA1\bin\Debug\netcoreapp2.2\AULA1.runtimeconfig.dev.json
+C:\Users\fic\Desktop\API\AULA1\bin\Debug\netcoreapp2.2\AULA1.dll
+C:\Users\fic\Desktop\API\AULA1\bin\Debug\netcoreapp2.2\AULA1.pdb
+C:\Users\fic\Desktop\API\AULA1\obj\Debug\netcoreapp2.2\AULA1.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\API\AULA1\obj\Debug\netcoreapp2.2\AULA1.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\API\AULA1\obj\Debug\netcoreapp2.2\AULA1.RazorAssemblyInfo.cache
+C:\Users\fic\Desktop\API\AULA1\obj\Debug\netcoreapp2.2\AULA1.RazorAssemblyInfo.cs
+C:\Users\fic\Desktop\API\AULA1\obj\Debug\netcoreapp2.2\AULA1.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\API\AULA1\obj\Debug\netcoreapp2.2\AULA1.AssemblyInfo.cs
+C:\Users\fic\Desktop\API\AULA1\obj\Debug\netcoreapp2.2\AULA1.RazorTargetAssemblyInfo.cache
+C:\Users\fic\Desktop\API\AULA1\obj\Debug\netcoreapp2.2\AULA1.dll
+C:\Users\fic\Desktop\API\AULA1\obj\Debug\netcoreapp2.2\AULA1.pdb
