@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\fic\\Desktop\\Git\\Reinforcement-projects\\API\\AULA1\\AULA1.csproj",
+  "FilePath": "c:\\Users\\fic\\Desktop\\Git\\Reinforcement-projects\\API\\AULA3\\AULA3.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2958,7 +2958,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "AULA1",
+  "RootNamespace": "AULA3",
   "Documents": [],
   "SerializationFormat": "0.2"
 }
