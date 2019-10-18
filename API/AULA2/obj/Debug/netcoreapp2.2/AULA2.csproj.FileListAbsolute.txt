@@ -1,0 +1,14 @@
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\bin\Debug\netcoreapp2.2\AULA2.deps.json
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\bin\Debug\netcoreapp2.2\AULA2.runtimeconfig.json
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\bin\Debug\netcoreapp2.2\AULA2.runtimeconfig.dev.json
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\bin\Debug\netcoreapp2.2\AULA2.dll
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\bin\Debug\netcoreapp2.2\AULA2.pdb
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\obj\Debug\netcoreapp2.2\AULA2.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\obj\Debug\netcoreapp2.2\AULA2.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\obj\Debug\netcoreapp2.2\AULA2.RazorAssemblyInfo.cache
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\obj\Debug\netcoreapp2.2\AULA2.RazorAssemblyInfo.cs
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\obj\Debug\netcoreapp2.2\AULA2.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\obj\Debug\netcoreapp2.2\AULA2.AssemblyInfo.cs
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\obj\Debug\netcoreapp2.2\AULA2.RazorTargetAssemblyInfo.cache
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\obj\Debug\netcoreapp2.2\AULA2.dll
+C:\Users\fic\Desktop\Git\Reinforcement-projects\API\AULA2\obj\Debug\netcoreapp2.2\AULA2.pdb
