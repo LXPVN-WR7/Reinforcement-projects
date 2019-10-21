@@ -1,0 +1,15 @@
+CREATE DATABASE ATIVIDADE;
+
+USE ATIVIDADE;
+
+CREATE TABLE USUARIO(
+	usr_id INT IDENTITY PRIMARY KEY NOT NULL,
+	usr_nome VARCHAR(50) NOT NULL,
+	usr_descricao VARCHAR(100) NOT NULL,
+	usr_data DATE NOT NULL	
+);
+
+SELECT * FROM USUARIO;
+
+INSERT INTO USUARIO(usr_nome, usr_descricao, usr_data)
+VALUES  ('Carlos Alberto', 'Cerveja, churrasco, amigos e código', '22/10/2019');
